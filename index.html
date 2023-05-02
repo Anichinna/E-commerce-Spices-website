@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPICES</title>
+    <!---CSS Style Sheet link--->
+    <link rel="stylesheet" href="style.css">
+    <!---CSS Bootstarp link--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---Navbar link--->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">SPICES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form action="login.html">
+                <button class="btnLogin-popup">Login</button>
+            </form>
+        </div>
+    </nav>
+    <!---Home Page--->
+    <form action="">
+        <section id="home">
+            <h1 class="text-center">ORGANIC SPICES</h1>
+            <p>Vaiety's the very spice of life,That gives it all its flavor</p>
+            <div class="input-group m-4">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
+                <button class="btn btn-primary">Get Register</button>
+                <script type="text/javascript">
+                    function check(){
+                        var email=document.getElementById('email').value;
+                        var at = email.indexOf("@");
+                        var dot = email.lastIndexOf(".");
+                        if(at<1||dot<at+2||dot+2 >= email.length){
+                            alert("Not a Vaild email-id");
+                            return false;
+                        }
+                    }
+                </script>
+            </div>
+        </section>
+    </form>
+    <!---About---> 
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12"><br>
+                    <img src="about.png" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 p-lg-5">
+                    <h1>ABOUT US</h1>
+                    <p>A spice is a seed, fruit, root, bark, or other plant substance primarily used for flavoring or coloring food. Spices are distinguished from herbs, which are the leaves, flowers, or stems of plants used for flavoring or as a garnish.
+                        Spices are sometimes used in medicine, religious rituals, cosmetics, or perfume production. For example, vanilla is commonly used as an ingredient in fragrance manufacturing.A spice may be available in several forms: fresh, whole-dried, or pre-ground dried.
+                        Generally, spices are dried. Spices may be ground into a powder for convenience. A whole dried spice has the longest shelf life, so it can be purchased and stored in larger amounts, making it cheaper on a per-serving basis.
+                        A fresh spice, such as ginger, is usually more flavorful than its dried form, but fresh spices are more expensive and have a much shorter shelf life. Some spices are not always available either fresh or whole, for example, turmeric, and often must be purchased in ground form.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---About--->
+    <section id="product">
+        <div class="container m-5">
+            <h1 class="text-center my-5">OUR PRODUCTS</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="01.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Turmeric Powder</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="02.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chicken Masala</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="03.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Red Chilli</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="04.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Ettan</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="05.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Salt</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="06.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Shunna Pepper Powder</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="07.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Curry pepper</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="08.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Black pepper</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card">
+                        <img src="09.png" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Irubi</h5>
+                            <a href="addcart.html" class="btn signin">Add To Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Contact Us--->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="contact.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h1>CONTACT US</h1>
+                    <form action="Register.html" class="mb-3" method="post" onsubmit="return check()">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your mail">
+                        <textarea class="form-control" placeholder="Enter your message"></textarea>
+                        <button class="btn btn-primary">Send Message</button>
+                        <script type="text/javascript">
+                            function check(){
+                                var name=document.getElementById('name').value;
+                                var email=document.getElementById('email').value;
+                                if(name==""){
+                                    alert("Please enter Your Name");
+                                    return false;
+                                }
+                                var at = email.indexOf("@");
+                                var dot = email.lastIndexOf(".");
+                                if(at<1||dot<at+2||dot+2 >= email.length){
+                                    alert("Not a Vaild email-id");
+                                    return false;
+                                }
+                            }
+                        </script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>Copyrights @Chinnannan 2023</footer>
+    <!---Script link--->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="addcard.js"></script>
+</body>
+</html>

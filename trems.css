@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.1),rgb(0, 0, 0,1)), url(Spices\ img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: rgb(220, 193, 56);
+}
+h3{
+    color: rgb(220, 193, 56);
+}
+p{
+    color: white;
+}
